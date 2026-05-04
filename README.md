@@ -13,7 +13,7 @@ This program helps users filter job listings on the LinkedIn job board to only s
 
 Developed and tested with Python 3.13. Earlier Python 3 versions are untested.
 
-The default web browser must already be logged into LinkedIn before using the program
+The default web browser must already be logged into LinkedIn before using the program.
 
 ### Repository setup:
 
