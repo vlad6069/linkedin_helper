@@ -37,9 +37,7 @@ def log_file_path():
     else:
         file_directory = pathlib.Path.home() / 'linkedin_helper'
     file_path = file_directory / f'user_input.json'
-    if (file_directory.is_dir() == False):
-        file_directory.mkdir()
-        print('log_file_path() - directory created')
+    file_directory.mkdir(parents=True, exist_ok=True)
     return file_path
 
 def exit_script():
